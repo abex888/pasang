@@ -56,53 +56,41 @@ echo "
 apt-get update
 echo "-> selesai."
 
-#echo "2. Instalasi LibreOffice" 
-#apt-get --yes --force-yes install libreoffice
-#echo "-> selesai."
-
-echo "3. Instalasi Font Microsoft"
+echo "2. Instalasi Font Microsoft"
 apt-get --yes --force-yes install ttf-mscorefonts-installer 
 echo "-> selesai."
 
-echo "4. Instalasi Gedit" 
+echo "3. Instalasi Gedit" 
 apt-get --yes --force-yes install gedit
 echo "-> selesai."
 
-echo "5. Instalasi Inkscape"
+echo "4. Instalasi Inkscape"
 apt-get --yes --force-yes install  inkscape 
 echo "-> selesai."
 
-echo "6. Instalasi Gimp"
+echo "5. Instalasi Gimp"
 apt-get --yes --force-yes install gimp
 echo "-> selesai."
 
-echo "7. Instalasi Gparted"
+echo "6. Instalasi Gparted"
 apt-get --yes --force-yes install gparted 
 echo "-> selesai."
 
-echo "8. Instalasi Filelight" 
+echo "7. Instalasi Filelight" 
 apt-get --yes --force-yes install filelight  
 echo "-> selesai."
 
-echo "9. Instalasi Fceux"
+echo "8. Instalasi Fceux"
 apt-get --yes --force-yes install fceux 
 echo "-> selesai."
 
-#echo "10. Instalasi Chromium Web Browser"
-#apt-get --yes --force-yes install chromium-browser
-#echo "-> selesai."
-
-echo "11. Instalasi Catfish File Search" 
+echo "9. Instalasi Catfish File Search" 
 apt-get --yes --force-yes install catfish 
 echo "-> selesai."
 
-echo "12. Instalasi Ubuntu Tweak" 
+echo "10. Instalasi Ubuntu Tweak" 
 apt-get --yes --force-yes install ubuntu-tweak 
 echo "-> selesai."
-
-#echo "13. Instalasi kde-nm-connection-editor"
-#apt-get --yes --force-yes install plasma-nm
-#echo "-> selesai"
 
 echo "Paket - paket program yang terinstall di sistem ini baca di file list_paket.txt
 dpkg -l > list_paket.txt" 
